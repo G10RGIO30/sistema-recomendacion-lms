@@ -1,0 +1,28 @@
+# =============================================================================
+# TFM: Sistema Híbrido de Recomendación de Recursos Educativos en LMS
+# Dependencias actualizadas para compatibilidad con Python 3.11 y uv
+# =============================================================================
+
+# Generación de datos sintéticos
+faker==24.4.0
+
+# Manipulación de datos
+pandas==2.2.1
+numpy==1.26.4
+
+# Embeddings semánticos (SBERT)
+sentence-transformers==2.6.1
+
+# Búsqueda de similitud vectorial
+faiss-cpu==1.8.0
+
+# Filtrado colaborativo (Uso de fork compatible con Python 3.11+)
+lightfm-next==1.19.0
+
+# Visualización
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# Análisis estadístico y machine learning
+scipy==1.12.0
+scikit-learn==1.4.1.post1

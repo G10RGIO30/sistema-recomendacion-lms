@@ -1,0 +1,23 @@
+# === Python & UV ===
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# === PyCharm / IntelliJ ===
+.idea/
+*.iml
+out/
+gen/
+
+# Ignore generated data and results to keep the repo clean
+datos/*.csv
+graficas/*.png
+
+# === OS Specific ===
+.DS_Store
+Thumbs.db
+
+# === Local Environment ===
+.env
