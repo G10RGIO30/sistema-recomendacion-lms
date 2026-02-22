@@ -30,18 +30,20 @@ EJECUCIÓN:
     (requiere haber ejecutado paso1_generar_datos.py primero)
 =============================================================================
 """
+import warnings
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+
 # Importar constantes necesarias
 from config import N_USUARIOS, N_RECURSOS
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import warnings
+
 warnings.filterwarnings('ignore')
 
 from config import (
-    fijar_semillas, SEED, GRAFICAS_DIR, INTERESES_POR_CARRERA,
-    RUTA_USUARIOS, RUTA_RECURSOS, RUTA_INTERACCIONES,
+    fijar_semillas, SEED, GRAFICAS_DIR, RUTA_USUARIOS, RUTA_RECURSOS, RUTA_INTERACCIONES,
     ESTILO_MATPLOTLIB, FIGSIZE_NORMAL, FIGSIZE_GRANDE, DPI
 )
 import os
