@@ -43,7 +43,6 @@ uv run paso3_modelo_contenido.py
 uv run paso4_modelo_colaborativo.py
 uv run paso5_modelo_hibrido.py
 uv run paso6_evaluacion.py
-uv run paso7_graficas_resultados.py
 ```
 
 ### Opción B: Usando pip tradicional
@@ -67,7 +66,6 @@ python paso3_modelo_contenido.py
 python paso4_modelo_colaborativo.py
 python paso5_modelo_hibrido.py
 python paso6_evaluacion.py
-python paso7_graficas_resultados.py
 ```
 
 ## Nota sobre reproducibilidad
