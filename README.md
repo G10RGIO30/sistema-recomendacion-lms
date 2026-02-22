@@ -13,7 +13,6 @@ tfm_project/
 ├── paso4_modelo_colaborativo.py    # Paso 4: Modelo de filtrado colaborativo (LightFM)
 ├── paso5_modelo_hibrido.py   # Paso 5: Modelo híbrido y optimización de α
 ├── paso6_evaluacion.py       # Paso 6: Evaluación comparativa y pruebas estadísticas
-├── paso7_graficas_resultados.py    # Paso 7: Gráficas finales de resultados
 ├── datos/                    # Carpeta donde se guardan los CSVs generados
 │   ├── usuarios.csv
 │   ├── recursos.csv
